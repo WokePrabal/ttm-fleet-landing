@@ -11,15 +11,18 @@ export default function FeatureStrip() {
   return (
     <section id="features" className="section py-14">
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        {features.map(({ icon: Icon, title, desc }) => (
-          <div key={title} className="glass rounded-2xl p-5">
-            <div className="h-10 w-10 rounded-lg flex items-center justify-center mb-3" style={{ background: "var(--grad)" }}>
-              <Icon className="h-6 w-6 text-slate-900" />
+        {features.map(({ icon, title, desc }) => {
+          const Icon = icon;
+          return (
+            <div key={title} className="glass rounded-2xl p-5">
+              <div className="h-10 w-10 rounded-lg flex items-center justify-center mb-3" style={{ background: "var(--grad)" }}>
+                <Icon className="h-6 w-6 text-slate-900" />
+              </div>
+              <h3 className="font-semibold">{title}</h3>
+              <p className="mt-1 text-sm text-slate-300">{desc}</p>
             </div>
-            <h3 className="font-semibold">{title}</h3>
-            <p className="mt-1 text-sm text-slate-300">{desc}</p>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </section>
   );
