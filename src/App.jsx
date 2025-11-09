@@ -1,12 +1,13 @@
 import { Helmet } from "react-helmet";
-import Navbar from "./components/navbar.jsx";
-import Hero from "./components/hero.jsx";
-import FeatureStrip from "./components/featurestrip.jsx";
+import Navbar from "./components/Navbar.jsx";
+import Hero from "./components/Hero.jsx";
+import FeatureStrip from "./components/FeatureStrip.jsx";
 import Benefits from "./components/Benefits.jsx";
 import Integration from "./components/Integration.jsx";
 import SocialProof from "./components/SocialProof.jsx";
 import ContactForm from "./components/ContactForm.jsx";
-import Footer from "./components/footer.jsx";
+import Footer from "./components/Footer.jsx";
+
 
 export default function App() {
   return (
