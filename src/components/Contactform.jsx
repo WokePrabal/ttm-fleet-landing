@@ -4,7 +4,7 @@ export default function ContactForm() {
   const [status, setStatus] = useState("idle");
 
   // replace later with your actual form endpoint
-  const action = "https://formspree.io/f/your-id";
+  const action = "https://formspree.io/f/xldarpgz";
 
   return (
     <section id="contact" className="section py-16">

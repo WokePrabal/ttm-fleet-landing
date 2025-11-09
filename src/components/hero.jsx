@@ -22,7 +22,7 @@ export default function Hero() {
         <div>
           <div className="glass rounded-3xl p-4 md:p-6">
             <img
-              src="https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?q=80&w=1600&auto=format&fit=crop"
+              src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870"
               alt="Fleet trucks at night"
               className="rounded-2xl object-cover w-full h-[260px] md:h-[360px]"
             />
